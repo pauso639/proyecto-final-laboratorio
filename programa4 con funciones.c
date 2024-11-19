@@ -65,7 +65,7 @@ void bebida_mas_consumida(int total[num_bebidas]) {
     printf("La bebida más consumida es la bebida %d con %d litros.\n", bebida, max);
 }
 
-void bebida_mas_consumida_sin_refresco_y_energeticos(int arr[num_pueblos][NUM_BEBIDAS], int total2[num_bebidas]) {
+void bebida_mas_consumida_sin_refresco_y_energeticos(int arr[num_pueblos][num_bebidas], int total2[num_bebidas]) {
     int i, j, acum;
 
     // Inicializar el arreglo de totales sin refresco ni energéticos
